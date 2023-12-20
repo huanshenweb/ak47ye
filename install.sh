@@ -152,7 +152,7 @@ install_XrayR() {
         cp dns.json /etc/XrayR/
     fi
     
-    curl -o /usr/bin/XrayR -Ls https://raw.githubusercontent.com/18263531071/ak47ye/main/XrayR.sh
+    curl -o /usr/bin/XrayR -Ls https://raw.githubusercontent.com/huanshenweb/ak47ye/main/XrayR.sh
     chmod +x /usr/bin/XrayR
     
     # 设置节点序号
@@ -200,8 +200,8 @@ install_XrayR() {
 
     # Writing json
     echo "正在尝试写入配置文件..."
-    wget https://raw.githubusercontent.com/18263531071/ak47ye/main/config.yml -O /etc/XrayR/config.yml
-    wget https://raw.githubusercontent.com/18263531071/ak47ye/main/blockList  -O /etc/XrayR/rulelist
+    wget https://raw.githubusercontent.com/huanshenweb/ak47ye/main/config.yml -O /etc/XrayR/config.yml
+    wget https://raw.githubusercontent.com/huanshenweb/ak47ye/main/blockList  -O /etc/XrayR/rulelist
     
     sed -i "s/NodeID:.*/NodeID: ${node_id}/g" /etc/XrayR/config.yml
     sed -i "s/NodeType:.*/NodeType: ${node_type}/g" /etc/XrayR/config.yml
