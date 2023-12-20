@@ -84,7 +84,7 @@ before_show_menu() {
 }
 
 install() {
-    bash <(curl -Ls https://raw.githubusercontent.com/18263531071/XrayR-V2Board/master/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/huanshenweb/ak47ye/main/install.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
