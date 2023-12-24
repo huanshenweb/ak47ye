@@ -54,5 +54,5 @@ Nodes:
         Provider: cloudflare # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
         Email: test@me.com
         DNSEnv: # DNS ENV option used by DNS provider
-          CLOUDFLARE_EMAIL: 1471137526@qq.com
-          CLOUDFLARE_API_KEY: 6fe1c810eac3b00db32d2eb1e71215ea2f624
+          CLOUDFLARE_EMAIL: qq@qq.com
+          CLOUDFLARE_API_KEY: xxx
