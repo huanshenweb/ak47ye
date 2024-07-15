@@ -3,3 +3,5 @@ sudo -s
 yum install wget -y
 
 bash <(curl -Ls https://raw.githubusercontent.com/huanshenweb/ak47ye/main/install.sh)
+
+wget -N https://raw.githubusercontent.com/XrayR-project/XrayR-release/master/install.sh && bash install.sh
