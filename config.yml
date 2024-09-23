@@ -16,7 +16,7 @@ Nodes:
   -
     PanelType: "NewV2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://origin.zhenye.life"
+      ApiHost: "https://www.huanshen.org"
       ApiKey: "1471137526111111"
       NodeID: 41
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
